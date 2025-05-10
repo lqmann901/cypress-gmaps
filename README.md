@@ -7,11 +7,11 @@ Dear what3words team,
 
 Thank you for taking the time to review my application.
 
-While I come from a non-IT background, I’ve spent the past five years working as a manual tester for iOS and Android apps, with a strong focus on exploratory testing. I’m actively self-studying automation and recently used Cypress (along with ChatGPT) to build this small demo project, inspired directly by your job description.
+I was excited to see your opening for the QA Engineer position. While I may not meet 100% of the technical requirements—particularly in automation and backend testing, I own 5 years of solid experience in testing Android and iOS applications in production environments, with a strong focus on exploratory testing, UI/UX validation, and cross-platform consistency.
 
-I’m passionate about growing into a hybrid tester, and I’m open to a flexible starting salary in exchange for the opportunity to contribute, learn, and grow with the what3words team.
-
-For more details about my background, please see my attached CV.
+Coming from a non-IT background, I’ve faced challenges transitioning to automation but remained persistent by learning independently with AI (ChatGPT). I’m actively building toward becoming a hybrid tester (manual + automation) and would love to grow in that direction with a team like what3words.
+As someone who is eager to grow into a hybrid QA role, I’m happy to accept a lower initial salary for the chance to gain hands-on experience and build long-term value at what3words. For more details about my background, please see my attached CV.
+Thank you for your time and consideration.
 
 Warm regards,  
 **Le Quang Man**
