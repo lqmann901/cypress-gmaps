@@ -41,4 +41,4 @@ npx cypress open
 ✅ Restrict the key to: http://localhost:8080/*
 
 📸 Demo UI
-Here’s a quick look at the tested interface: ![Demo UI](./screenshots/Demo-ui.png)
+Here’s a quick look at the tested interface: ![Demo UI](./screenshots/demo-ui.png)
