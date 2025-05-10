@@ -1,7 +1,35 @@
-# Cypress Google Maps Demo
+#Cover Letter and Cypress Google Maps Demo
+---
 
+## 📝 Cover Letter
+
+Dear what3words team,
+
+Thank you for taking the time to review my application.
+
+While I come from a non-IT background, I’ve spent the past five years working as a manual tester for iOS and Android apps, with a strong focus on exploratory testing. I’m actively self-studying automation and recently used Cypress (along with ChatGPT) to build this small demo project, inspired directly by your job description.
+
+I’m passionate about growing into a hybrid tester, and I’m open to a flexible starting salary in exchange for the opportunity to contribute, learn, and grow with the what3words team.
+
+For more details about my background, please see my attached CV.
+
+Warm regards,  
+**Le Quang Man**
+
+---
+
+## 🤖 AI Disclosure
+
+This application and demo were built with the help of ChatGPT. I used AI to:
+
+- Understand and apply Cypress for automation
+- Draft and refine this README and cover letter
+- Troubleshoot Google Maps integration and DOM handling
+
+I iterated based on real feedback and learning goals, and all content was reviewed, customized, and validated by me personally.
+---
 This is a simple end-to-end test automation demo project using [Cypress](https://www.cypress.io/) and the Google Maps JavaScript API.
-
+## Cypress Google Maps Demo
 ## 🔍 Features
 
 - Search for a location using a text input
