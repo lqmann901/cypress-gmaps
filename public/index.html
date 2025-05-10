@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps Search Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      #map {
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Search for a Location</h2>
+    <input
+      id="addressInput"
+      type="text"
+      placeholder="Enter an address..."
+      style="width: 300px; padding: 5px;"
+    />
+    <button onclick="geocodeAddress()">Search</button>
+
+    <div id="map"></div>
+
+    <script>
+      let map;
+      let geocoder;
+      window.marker = null; // Global marker accessible for Cypress testing
+
+      function initMap() {
+        // Initialize the map centered at Ho Chi Minh City
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 10.762622, lng: 106.660172 },
+          zoom: 13,
+        });
+
+        geocoder = new google.maps.Geocoder();
+      }
+
+      function geocodeAddress() {
+        const address = document.getElementById("addressInput").value;
+
+        if (!address.trim()) {
+          alert("Please enter an address.");
+          return;
+        }
+
+        // Geocode the address and place a marker on the map
+        geocoder.geocode({ address: address }, (results, status) => {
+          if (status === "OK") {
+            map.setCenter(results[0].geometry.location);
+
+            // Remove any existing marker
+            if (window.marker) {
+              window.marker.setMap(null);
+            }
+
+            // Place a new marker at the location
+            window.marker = new google.maps.Marker({
+              map: map,
+              position: results[0].geometry.location,
+            });
+          } else {
+            alert("Address not found: " + status);
+          }
+        });
+      }
+    </script>
+
+    <!-- ✅ API key embedded and restricted to localhost:8080 -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_2Eelnbsxkb2B_9D1u8DPFnH1f3p7HdI&libraries=places&callback=initMap"
+      async defer
+    ></script>
+  </body>
+</html>
