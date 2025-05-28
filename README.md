@@ -3,13 +3,13 @@
 
 ## 📝 Cover Letter
 
-Dear what3words team,
+Dear Hiring teams,
 
 Thank you for taking the time to review my application.
 
 I was excited to see your opening for the QA Engineer position. While I may not meet 100% of the technical requirements—particularly in automation and backend testing, I own 5 years of solid experience in testing Android and iOS applications in production environments, with a strong focus on exploratory testing, UI/UX validation, and cross-platform consistency.
 
-Coming from a non-IT background, I’ve faced challenges transitioning to automation but remained persistent by learning independently with AI (ChatGPT). I’m actively building toward becoming a hybrid tester (manual + automation) and would love to grow in that direction with a team like what3words.
+Coming from a non-IT background, I’ve faced challenges transitioning to automation but remained persistent by learning independently with AI (ChatGPT). I’m actively building toward becoming a hybrid tester (manual + automation) and would love to grow in that direction with a team like that.
 As someone who is eager to grow into a hybrid QA role, I’m happy to accept a lower initial salary for the chance to gain hands-on experience and build long-term value at what3words. For more details about my background, please see my attached CV.
 Thank you for your time and consideration.
 
